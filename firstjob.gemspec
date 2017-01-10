@@ -29,4 +29,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.add_development_dependency "rspec"
   s.add_development_dependency "pry-byebug"
+  s.post_install_message = <<-MESSAGE
+  !    The 'firstjob' gem has been deprecated and has been replaced by 'firstjob_api'.
+  !    See: https://rubygems.org/gems/firstjob_api
+  !    And: https://github.com/rfernand/firstjob_api
+  MESSAGE
 end
